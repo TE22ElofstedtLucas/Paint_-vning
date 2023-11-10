@@ -6,8 +6,13 @@ main{
     display:flex;
     flex-direction: row;  
 }
+.I{
+    display: flex;
+    flex-direction: column;
+}
 body{
     display: grid;
-   
+    grid-column: 3;
+    grid-row: auto;
 }
 
